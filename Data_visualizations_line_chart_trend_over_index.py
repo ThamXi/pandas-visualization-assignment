@@ -1,0 +1,6 @@
+plt.figure()
+plt.plot(df.index, df["sepal length (cm)"])
+plt.xlabel("Index")
+plt.ylabel("Sepal Length (cm)")
+plt.title("Line Chart: Sepal Length Trend")
+plt.show()
